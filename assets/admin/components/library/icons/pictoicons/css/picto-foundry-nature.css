@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "picto-foundry-nature";
+  src: url("../fonts/picto-foundry-nature.eot");
+  src: url("../fonts/picto-foundry-nature.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-nature.woff") format("woff"),
+       url("../fonts/picto-foundry-nature.ttf") format("truetype"),
+       url("../fonts/picto-foundry-nature.svg#picto-foundry-nature") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-nature";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-acorn:before,
+.icon-anchor:before,
+.icon-axe:before,
+.icon-back-pack:before,
+.icon-beach:before,
+.icon-binoculars:before,
+.icon-boat:before,
+.icon-butterfly:before,
+.icon-camp-fire:before,
+.icon-cantine:before,
+.icon-clover:before,
+.icon-compass-1:before,
+.icon-compass-2:before,
+.icon-dead-tree:before,
+.icon-earth:before,
+.icon-ever-greens:before,
+.icon-fire-fill:before,
+.icon-fire:before,
+.icon-fish-hook:before,
+.icon-flashlight:before,
+.icon-flower-1:before,
+.icon-flower-2:before,
+.icon-flower-3:before,
+.icon-flower-4:before,
+.icon-flower-5:before,
+.icon-flower-pot:before,
+.icon-kayak:before,
+.icon-lady-bug:before,
+.icon-lantern:before,
+.icon-leaf-1:before,
+.icon-leaf-2:before,
+.icon-leaf-3:before,
+.icon-leaf-4:before,
+.icon-life-raft:before,
+.icon-love-recycle:before,
+.icon-mountains:before,
+.icon-mushroom:before,
+.icon-north:before,
+.icon-picnic-table:before,
+.icon-pine-cone:before,
+.icon-pocket-knife:before,
+.icon-pot-plant-fill:before,
+.icon-pot-plant:before,
+.icon-sail-boat:before,
+.icon-ship-wheel:before,
+.icon-swimming:before,
+.icon-telescope:before,
+.icon-tent:before,
+.icon-trailer:before,
+.icon-tree-1:before,
+.icon-tree-2:before,
+.icon-tree-3:before,
+.icon-water:before,
+.icon-worldwide:before {
+  font-family: "picto-foundry-nature";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-acorn:before { content: "\f100"; }
+.icon-anchor:before { content: "\f101"; }
+.icon-axe:before { content: "\f102"; }
+.icon-back-pack:before { content: "\f103"; }
+.icon-beach:before { content: "\f104"; }
+.icon-binoculars:before { content: "\f105"; }
+.icon-boat:before { content: "\f106"; }
+.icon-butterfly:before { content: "\f107"; }
+.icon-camp-fire:before { content: "\f108"; }
+.icon-cantine:before { content: "\f109"; }
+.icon-clover:before { content: "\f10a"; }
+.icon-compass-1:before { content: "\f10b"; }
+.icon-compass-2:before { content: "\f10c"; }
+.icon-dead-tree:before { content: "\f10d"; }
+.icon-earth:before { content: "\f10e"; }
+.icon-ever-greens:before { content: "\f10f"; }
+.icon-fire-fill:before { content: "\f110"; }
+.icon-fire:before { content: "\f111"; }
+.icon-fish-hook:before { content: "\f112"; }
+.icon-flashlight:before { content: "\f113"; }
+.icon-flower-1:before { content: "\f114"; }
+.icon-flower-2:before { content: "\f115"; }
+.icon-flower-3:before { content: "\f116"; }
+.icon-flower-4:before { content: "\f117"; }
+.icon-flower-5:before { content: "\f118"; }
+.icon-flower-pot:before { content: "\f119"; }
+.icon-kayak:before { content: "\f11a"; }
+.icon-lady-bug:before { content: "\f11b"; }
+.icon-lantern:before { content: "\f11c"; }
+.icon-leaf-1:before { content: "\f11d"; }
+.icon-leaf-2:before { content: "\f11e"; }
+.icon-leaf-3:before { content: "\f11f"; }
+.icon-leaf-4:before { content: "\f120"; }
+.icon-life-raft:before { content: "\f121"; }
+.icon-love-recycle:before { content: "\f122"; }
+.icon-mountains:before { content: "\f123"; }
+.icon-mushroom:before { content: "\f124"; }
+.icon-north:before { content: "\f125"; }
+.icon-picnic-table:before { content: "\f126"; }
+.icon-pine-cone:before { content: "\f127"; }
+.icon-pocket-knife:before { content: "\f128"; }
+.icon-pot-plant-fill:before { content: "\f129"; }
+.icon-pot-plant:before { content: "\f12a"; }
+.icon-sail-boat:before { content: "\f12b"; }
+.icon-ship-wheel:before { content: "\f12c"; }
+.icon-swimming:before { content: "\f12d"; }
+.icon-telescope:before { content: "\f12e"; }
+.icon-tent:before { content: "\f12f"; }
+.icon-trailer:before { content: "\f130"; }
+.icon-tree-1:before { content: "\f131"; }
+.icon-tree-2:before { content: "\f132"; }
+.icon-tree-3:before { content: "\f133"; }
+.icon-water:before { content: "\f134"; }
+.icon-worldwide:before { content: "\f135"; }

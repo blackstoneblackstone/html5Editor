@@ -1,0 +1,6 @@
+@import '../../components/library/bootstrap/css/bootstrap.min.css';
+@import '../../components/library/icons/fontawesome/assets/css/font-awesome.min.css';
+@import '../../components/library/icons/glyphicons/assets/css/glyphicons_regular.css';
+@import '../../components/library/icons/pictoicons/css/picto.css';
+@import '../../components/common/forms/elements/select2/assets/lib/css/select2.css';
+@import '../../components/common/forms/elements/jasny-fileupload/assets/css/fileupload.css';

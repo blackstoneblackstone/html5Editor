@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "picto-foundry-sports";
+  src: url("../fonts/picto-foundry-sports.eot");
+  src: url("../fonts/picto-foundry-sports.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-sports.woff") format("woff"),
+       url("../fonts/picto-foundry-sports.ttf") format("truetype"),
+       url("../fonts/picto-foundry-sports.svg#picto-foundry-sports") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-sports";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-target:before,
+.icon-badminton-racket:before,
+.icon-badminton-shuttlecock:before,
+.icon-ball-and-bat:before,
+.icon-barbell:before,
+.icon-baseball-bat:before,
+.icon-baseball-diamond:before,
+.icon-baseball-glove:before,
+.icon-baseball-helmet:before,
+.icon-basebeall:before,
+.icon-basketball-court:before,
+.icon-basketball-hoop:before,
+.icon-basketball:before,
+.icon-bicycle:before,
+.icon-billiards-table:before,
+.icon-bowling-ball:before,
+.icon-bowling-pin:before,
+.icon-boxing-glove:before,
+.icon-boxing-ring:before,
+.icon-first-place:before,
+.icon-football-1:before,
+.icon-football-2:before,
+.icon-football-field:before,
+.icon-football-helmet:before,
+.icon-football-play:before,
+.icon-goal-post:before,
+.icon-golf-bag:before,
+.icon-golf-ball-on-tee:before,
+.icon-golf-ball:before,
+.icon-golf-hole:before,
+.icon-golf-putter:before,
+.icon-hockey-puck-stick:before,
+.icon-hockey-rink:before,
+.icon-home-plate:before,
+.icon-jersey:before,
+.icon-lacrosse:before,
+.icon-ping-pong:before,
+.icon-pool-ball-fill:before,
+.icon-pool-ball:before,
+.icon-pool-rack:before,
+.icon-race-flag-fill:before,
+.icon-race-flag:before,
+.icon-rugby-ball:before,
+.icon-skateboard:before,
+.icon-soccer-field:before,
+.icon-soccerball-fiil:before,
+.icon-soccerball:before,
+.icon-stop-watch:before,
+.icon-tennis-ball:before,
+.icon-tennis-court:before,
+.icon-tennis-racket:before,
+.icon-trophy-fill:before,
+.icon-trophy:before,
+.icon-volleyball:before,
+.icon-whistle:before {
+  font-family: "picto-foundry-sports";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-arrow-target:before { content: "\f100"; }
+.icon-badminton-racket:before { content: "\f101"; }
+.icon-badminton-shuttlecock:before { content: "\f102"; }
+.icon-ball-and-bat:before { content: "\f103"; }
+.icon-barbell:before { content: "\f104"; }
+.icon-baseball-bat:before { content: "\f105"; }
+.icon-baseball-diamond:before { content: "\f106"; }
+.icon-baseball-glove:before { content: "\f107"; }
+.icon-baseball-helmet:before { content: "\f108"; }
+.icon-basebeall:before { content: "\f109"; }
+.icon-basketball-court:before { content: "\f10a"; }
+.icon-basketball-hoop:before { content: "\f10b"; }
+.icon-basketball:before { content: "\f10c"; }
+.icon-bicycle:before { content: "\f10d"; }
+.icon-billiards-table:before { content: "\f10e"; }
+.icon-bowling-ball:before { content: "\f10f"; }
+.icon-bowling-pin:before { content: "\f110"; }
+.icon-boxing-glove:before { content: "\f111"; }
+.icon-boxing-ring:before { content: "\f112"; }
+.icon-first-place:before { content: "\f113"; }
+.icon-football-1:before { content: "\f114"; }
+.icon-football-2:before { content: "\f115"; }
+.icon-football-field:before { content: "\f116"; }
+.icon-football-helmet:before { content: "\f117"; }
+.icon-football-play:before { content: "\f118"; }
+.icon-goal-post:before { content: "\f119"; }
+.icon-golf-bag:before { content: "\f11a"; }
+.icon-golf-ball-on-tee:before { content: "\f11b"; }
+.icon-golf-ball:before { content: "\f11c"; }
+.icon-golf-hole:before { content: "\f11d"; }
+.icon-golf-putter:before { content: "\f11e"; }
+.icon-hockey-puck-stick:before { content: "\f11f"; }
+.icon-hockey-rink:before { content: "\f120"; }
+.icon-home-plate:before { content: "\f121"; }
+.icon-jersey:before { content: "\f122"; }
+.icon-lacrosse:before { content: "\f123"; }
+.icon-ping-pong:before { content: "\f124"; }
+.icon-pool-ball-fill:before { content: "\f125"; }
+.icon-pool-ball:before { content: "\f126"; }
+.icon-pool-rack:before { content: "\f127"; }
+.icon-race-flag-fill:before { content: "\f128"; }
+.icon-race-flag:before { content: "\f129"; }
+.icon-rugby-ball:before { content: "\f12a"; }
+.icon-skateboard:before { content: "\f12b"; }
+.icon-soccer-field:before { content: "\f12c"; }
+.icon-soccerball-fiil:before { content: "\f12d"; }
+.icon-soccerball:before { content: "\f12e"; }
+.icon-stop-watch:before { content: "\f12f"; }
+.icon-tennis-ball:before { content: "\f130"; }
+.icon-tennis-court:before { content: "\f131"; }
+.icon-tennis-racket:before { content: "\f132"; }
+.icon-trophy-fill:before { content: "\f133"; }
+.icon-trophy:before { content: "\f134"; }
+.icon-volleyball:before { content: "\f135"; }
+.icon-whistle:before { content: "\f136"; }

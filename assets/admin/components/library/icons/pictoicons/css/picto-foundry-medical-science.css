@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "picto-foundry-medical-science";
+  src: url("../fonts/picto-foundry-medical-science.eot");
+  src: url("../fonts/picto-foundry-medical-science.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-medical-science.woff") format("woff"),
+       url("../fonts/picto-foundry-medical-science.ttf") format("truetype"),
+       url("../fonts/picto-foundry-medical-science.svg#picto-foundry-medical-science") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-medical-science";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alien:before,
+.icon-ambulance:before,
+.icon-atom-1:before,
+.icon-atom-2:before,
+.icon-bandage:before,
+.icon-big-bang:before,
+.icon-biological:before,
+.icon-blood-sample:before,
+.icon-cell:before,
+.icon-clipboard:before,
+.icon-crutches:before,
+.icon-dna:before,
+.icon-eye-dropper:before,
+.icon-female:before,
+.icon-first-aid:before,
+.icon-galaxy:before,
+.icon-handicap:before,
+.icon-heart-beat:before,
+.icon-heart-fill:before,
+.icon-heart-monitor:before,
+.icon-heart:before,
+.icon-hospital-bed:before,
+.icon-hospital:before,
+.icon-lab-beaker:before,
+.icon-magnet:before,
+.icon-male:before,
+.icon-medical-alert-fill:before,
+.icon-medical-alert:before,
+.icon-medical-symbol-fill:before,
+.icon-medical-symbol:before,
+.icon-medicine:before,
+.icon-microscope:before,
+.icon-molecule-1:before,
+.icon-molecule-2:before,
+.icon-no-smoking:before,
+.icon-nuclear:before,
+.icon-perscription:before,
+.icon-pill:before,
+.icon-planet:before,
+.icon-reflex-hammer:before,
+.icon-rocket:before,
+.icon-satellite-1:before,
+.icon-satellite-2:before,
+.icon-satellite-3:before,
+.icon-shooting-star-fill:before,
+.icon-shooting-star:before,
+.icon-skull-bones:before,
+.icon-space-helmet:before,
+.icon-space-shuttle:before,
+.icon-star-fill:before,
+.icon-star:before,
+.icon-stethoscope:before,
+.icon-syringe:before,
+.icon-ufo:before {
+  font-family: "picto-foundry-medical-science";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-alien:before { content: "\f100"; }
+.icon-ambulance:before { content: "\f101"; }
+.icon-atom-1:before { content: "\f102"; }
+.icon-atom-2:before { content: "\f103"; }
+.icon-bandage:before { content: "\f104"; }
+.icon-big-bang:before { content: "\f105"; }
+.icon-biological:before { content: "\f106"; }
+.icon-blood-sample:before { content: "\f107"; }
+.icon-cell:before { content: "\f108"; }
+.icon-clipboard:before { content: "\f109"; }
+.icon-crutches:before { content: "\f10a"; }
+.icon-dna:before { content: "\f10b"; }
+.icon-eye-dropper:before { content: "\f10c"; }
+.icon-female:before { content: "\f10d"; }
+.icon-first-aid:before { content: "\f10e"; }
+.icon-galaxy:before { content: "\f10f"; }
+.icon-handicap:before { content: "\f110"; }
+.icon-heart-beat:before { content: "\f111"; }
+.icon-heart-fill:before { content: "\f112"; }
+.icon-heart-monitor:before { content: "\f113"; }
+.icon-heart:before { content: "\f114"; }
+.icon-hospital-bed:before { content: "\f115"; }
+.icon-hospital:before { content: "\f116"; }
+.icon-lab-beaker:before { content: "\f117"; }
+.icon-magnet:before { content: "\f118"; }
+.icon-male:before { content: "\f119"; }
+.icon-medical-alert-fill:before { content: "\f11a"; }
+.icon-medical-alert:before { content: "\f11b"; }
+.icon-medical-symbol-fill:before { content: "\f11c"; }
+.icon-medical-symbol:before { content: "\f11d"; }
+.icon-medicine:before { content: "\f11e"; }
+.icon-microscope:before { content: "\f11f"; }
+.icon-molecule-1:before { content: "\f120"; }
+.icon-molecule-2:before { content: "\f121"; }
+.icon-no-smoking:before { content: "\f122"; }
+.icon-nuclear:before { content: "\f123"; }
+.icon-perscription:before { content: "\f124"; }
+.icon-pill:before { content: "\f125"; }
+.icon-planet:before { content: "\f126"; }
+.icon-reflex-hammer:before { content: "\f127"; }
+.icon-rocket:before { content: "\f128"; }
+.icon-satellite-1:before { content: "\f129"; }
+.icon-satellite-2:before { content: "\f12a"; }
+.icon-satellite-3:before { content: "\f12b"; }
+.icon-shooting-star-fill:before { content: "\f12c"; }
+.icon-shooting-star:before { content: "\f12d"; }
+.icon-skull-bones:before { content: "\f12e"; }
+.icon-space-helmet:before { content: "\f12f"; }
+.icon-space-shuttle:before { content: "\f130"; }
+.icon-star-fill:before { content: "\f131"; }
+.icon-star:before { content: "\f132"; }
+.icon-stethoscope:before { content: "\f133"; }
+.icon-syringe:before { content: "\f134"; }
+.icon-ufo:before { content: "\f135"; }

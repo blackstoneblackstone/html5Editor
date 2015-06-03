@@ -1,0 +1,104 @@
+<include file="Public:head"/>
+<body>
+    
+     <!--内容显示 Begin-->
+    <div class="col_main">
+        <input name="ctl00$ContentPlaceHolder1$txt" type="hidden" id="ctl00_ContentPlaceHolder1_txt" />
+        <div class="main_hd">
+            <div class="title_tab" id="topTab">
+                <ul class="tab_navs mt title_tab">
+                    <li class="tab_nav js_top  selected" data-id="mphelper"><a href="javascript:void(0);">
+                       编辑 素材</a></li>
+                </ul>
+            </div>
+             <p class="extra_info">
+               <a class="button2" href='?c=upfilesys&filetype={$filetype_int}' style='margin-bottom: 2px;'>返回<php>if($filetype_int ==1):</php>图片<php>elseif($filetype_int ==2): </php>音乐 
+<php>else: </php>背景
+<php>endif;</php>列表</a>
+            </p>
+        </div>
+        
+        
+        
+       <form action="" method="post" enctype="multipart/form-data" onSubmit="return checkForm()">
+        <div style="text-align: left; padding: 20px; text-align: left;">
+           
+            
+             
+             
+            <!--打印帮助关键字配置-->
+          
+            <hr style="width: 50%; size: 1px; border: none;" />
+            <table style="vertical-align: top;">
+                <tr>
+                    <td style="width: 98px;">
+                            文件名
+                    </td>
+                    <td colspan="2">
+                          <span class="frm_input_box">
+                            <input name="user[filename_varchar]" type="text"  id="title"  class="frm_input"  value="{$user.filename_varchar}" /></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        类型
+                    </td>
+                    <td colspan="2"> 
+                       <select name="user[biztype_int]"> 
+                         <foreach name='filetypelist' item='item' key='key' >
+                       <option value="{$key}" <eq name="user[biztype_int]" value="$key"> selected="selected" </eq> >{$item}</option>
+                        </foreach> </select>
+   
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>
+                         上传文件
+                    </td>
+                    <td>
+                        <input type="file" name="file">
+                    </td>
+                    <td>    
+                      <php>if($user[filesrc_varchar]):</php>
+                      <eq name="filetype_int" value="2">
+                                      <audio controls><source src="/Uploads/{$user.filesrc_varchar}" type="audio/mpeg">你的浏览器不支持在线.</audio>
+                                       <else/>
+                                        <img src="/Uploads/{$user.filethumbsrc_varchar}" class="thbnail"></eq>
+                         <php>endif;</php>
+                                    
+                                         </td>
+                </tr>
+                <tr>
+                    <td>  
+                    </td>
+                    <td colspan="2">
+                    </td>
+                </tr>
+            </table>
+          <div class="tool_bar border with_form">
+                <span id="Span1" class="btn btn_primary btn_input">
+                         <input type="hidden"  name="id" value="{$user.fileid_bigint}" />
+                         
+                          <input type="hidden"  name="fileType" value="{$filetype_int}" />
+                          <input type="hidden"  name="userid_int" value="{$user.userid_int}" />
+                    <input type="submit" name=" " value="保存"   /></span>
+            </div>
+        </div>
+        </form>
+        
+    </div>
+    <!--内容显示 End-->
+
+  <script type="text/javascript">
+   function checkForm(){
+	   if($('#title').val()==''){
+		   alert('文件名不能为空');
+		 return false;  
+		 }
+		 return true;
+	}
+  </script>
+ 
+</body>
+</html>

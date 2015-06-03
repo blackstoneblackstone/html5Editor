@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "picto-foundry-multimedia";
+  src: url("../fonts/picto-foundry-multimedia.eot");
+  src: url("../fonts/picto-foundry-multimedia.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-multimedia.woff") format("woff"),
+       url("../fonts/picto-foundry-multimedia.ttf") format("truetype"),
+       url("../fonts/picto-foundry-multimedia.svg#picto-foundry-multimedia") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-multimedia";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-albums:before,
+.icon-bass-cleff:before,
+.icon-beat-machine:before,
+.icon-clapper-board:before,
+.icon-compact-disc:before,
+.icon-desktop-heart:before,
+.icon-desktop-location:before,
+.icon-desktop-play:before,
+.icon-desktop-star:before,
+.icon-desktop:before,
+.icon-download-photo:before,
+.icon-drum:before,
+.icon-eye-cry:before,
+.icon-fast-forward-fill:before,
+.icon-fast-forward:before,
+.icon-film-roll:before,
+.icon-film-strip:before,
+.icon-flip-camera-fill:before,
+.icon-flip-camera:before,
+.icon-game-controller:before,
+.icon-guitar:before,
+.icon-headphones:before,
+.icon-headset:before,
+.icon-industry:before,
+.icon-laptop:before,
+.icon-media:before,
+.icon-microphone:before,
+.icon-midi-fill:before,
+.icon-midi:before,
+.icon-mixer:before,
+.icon-movie-camera-fill:before,
+.icon-movie-camera:before,
+.icon-music-cloud:before,
+.icon-music-heart:before,
+.icon-music-list:before,
+.icon-music-note-1:before,
+.icon-music-note-2:before,
+.icon-music-note-fill-1:before,
+.icon-music-note-fill-2:before,
+.icon-music-player:before,
+.icon-music-star:before,
+.icon-pause-fill:before,
+.icon-pause:before,
+.icon-photo-camera-fill:before,
+.icon-photo-camera:before,
+.icon-piano-keys:before,
+.icon-picture:before,
+.icon-play-fill:before,
+.icon-play:before,
+.icon-radio:before,
+.icon-record-player:before,
+.icon-rewind-fill:before,
+.icon-rewind:before,
+.icon-skip-back-fill:before,
+.icon-skip-back:before,
+.icon-skip-forward-fill:before,
+.icon-skip-forward:before,
+.icon-small-camara:before,
+.icon-smart-phone:before,
+.icon-speaker:before,
+.icon-stop-fill:before,
+.icon-stop:before,
+.icon-tablet:before,
+.icon-tape:before,
+.icon-ticket:before,
+.icon-treble-cleff:before,
+.icon-tv-heart:before,
+.icon-tv-location:before,
+.icon-tv-play:before,
+.icon-tv-star:before,
+.icon-tv:before,
+.icon-upload-photo:before,
+.icon-vinyl-record:before,
+.icon-visual-eye-fill:before,
+.icon-visual-eye:before,
+.icon-volume-1:before,
+.icon-volume-2:before,
+.icon-volume-3:before,
+.icon-volume-4:before,
+.icon-volume-levels:before,
+.icon-volume-off:before {
+  font-family: "picto-foundry-multimedia";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-albums:before { content: "\f100"; }
+.icon-bass-cleff:before { content: "\f101"; }
+.icon-beat-machine:before { content: "\f102"; }
+.icon-clapper-board:before { content: "\f103"; }
+.icon-compact-disc:before { content: "\f104"; }
+.icon-desktop-heart:before { content: "\f105"; }
+.icon-desktop-location:before { content: "\f106"; }
+.icon-desktop-play:before { content: "\f107"; }
+.icon-desktop-star:before { content: "\f108"; }
+.icon-desktop:before { content: "\f109"; }
+.icon-download-photo:before { content: "\f10a"; }
+.icon-drum:before { content: "\f10b"; }
+.icon-eye-cry:before { content: "\f10c"; }
+.icon-fast-forward-fill:before { content: "\f10d"; }
+.icon-fast-forward:before { content: "\f10e"; }
+.icon-film-roll:before { content: "\f10f"; }
+.icon-film-strip:before { content: "\f110"; }
+.icon-flip-camera-fill:before { content: "\f111"; }
+.icon-flip-camera:before { content: "\f112"; }
+.icon-game-controller:before { content: "\f113"; }
+.icon-guitar:before { content: "\f114"; }
+.icon-headphones:before { content: "\f115"; }
+.icon-headset:before { content: "\f116"; }
+.icon-industry:before { content: "\f117"; }
+.icon-laptop:before { content: "\f118"; }
+.icon-media:before { content: "\f119"; }
+.icon-microphone:before { content: "\f11a"; }
+.icon-midi-fill:before { content: "\f11b"; }
+.icon-midi:before { content: "\f11c"; }
+.icon-mixer:before { content: "\f11d"; }
+.icon-movie-camera-fill:before { content: "\f11e"; }
+.icon-movie-camera:before { content: "\f11f"; }
+.icon-music-cloud:before { content: "\f120"; }
+.icon-music-heart:before { content: "\f121"; }
+.icon-music-list:before { content: "\f122"; }
+.icon-music-note-1:before { content: "\f123"; }
+.icon-music-note-2:before { content: "\f124"; }
+.icon-music-note-fill-1:before { content: "\f125"; }
+.icon-music-note-fill-2:before { content: "\f126"; }
+.icon-music-player:before { content: "\f127"; }
+.icon-music-star:before { content: "\f128"; }
+.icon-pause-fill:before { content: "\f129"; }
+.icon-pause:before { content: "\f12a"; }
+.icon-photo-camera-fill:before { content: "\f12b"; }
+.icon-photo-camera:before { content: "\f12c"; }
+.icon-piano-keys:before { content: "\f12d"; }
+.icon-picture:before { content: "\f12e"; }
+.icon-play-fill:before { content: "\f12f"; }
+.icon-play:before { content: "\f130"; }
+.icon-radio:before { content: "\f131"; }
+.icon-record-player:before { content: "\f132"; }
+.icon-rewind-fill:before { content: "\f133"; }
+.icon-rewind:before { content: "\f134"; }
+.icon-skip-back-fill:before { content: "\f135"; }
+.icon-skip-back:before { content: "\f136"; }
+.icon-skip-forward-fill:before { content: "\f137"; }
+.icon-skip-forward:before { content: "\f138"; }
+.icon-small-camara:before { content: "\f139"; }
+.icon-smart-phone:before { content: "\f13a"; }
+.icon-speaker:before { content: "\f13b"; }
+.icon-stop-fill:before { content: "\f13c"; }
+.icon-stop:before { content: "\f13d"; }
+.icon-tablet:before { content: "\f13e"; }
+.icon-tape:before { content: "\f13f"; }
+.icon-ticket:before { content: "\f140"; }
+.icon-treble-cleff:before { content: "\f141"; }
+.icon-tv-heart:before { content: "\f142"; }
+.icon-tv-location:before { content: "\f143"; }
+.icon-tv-play:before { content: "\f144"; }
+.icon-tv-star:before { content: "\f145"; }
+.icon-tv:before { content: "\f146"; }
+.icon-upload-photo:before { content: "\f147"; }
+.icon-vinyl-record:before { content: "\f148"; }
+.icon-visual-eye-fill:before { content: "\f149"; }
+.icon-visual-eye:before { content: "\f14a"; }
+.icon-volume-1:before { content: "\f14b"; }
+.icon-volume-2:before { content: "\f14c"; }
+.icon-volume-3:before { content: "\f14d"; }
+.icon-volume-4:before { content: "\f14e"; }
+.icon-volume-levels:before { content: "\f14f"; }
+.icon-volume-off:before { content: "\f150"; }

@@ -1,0 +1,21 @@
+[ 2015-05-25T08:04:47+08:00 ] 119.36.26.117 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-25T08:04:47+08:00 ] 101.226.102.97 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-25T08:09:40+08:00 ] 119.36.26.117 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-25T08:09:51+08:00 ] 119.36.26.117 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-25T08:09:51+08:00 ] 180.153.163.190 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-25T08:09:52+08:00 ] 119.36.26.117 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-25T08:09:52+08:00 ] 112.64.235.253 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+

@@ -1,0 +1,222 @@
+[ 2015-05-29T08:51:37+08:00 ] 127.0.0.1 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-29T08:54:27+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T08:54:28+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T08:54:28+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432860868047
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T08:54:48+08:00 ] 127.0.0.1 /Public/css/images/hover.jpg
+ERR: 无法加载控制器:Public/css/images/hover.jpg
+
+[ 2015-05-29T08:54:57+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:55:11+08:00 ] 127.0.0.1 /assets/images/main/qq_05.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_05.jpg
+
+[ 2015-05-29T08:55:11+08:00 ] 127.0.0.1 /assets/images/main/qq_10.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_10.jpg
+
+[ 2015-05-29T08:55:11+08:00 ] 127.0.0.1 /assets/images/main/qq_11.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_11.jpg
+
+[ 2015-05-29T08:55:11+08:00 ] 127.0.0.1 /assets/images/main/qq_12.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_12.jpg
+
+[ 2015-05-29T08:55:11+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:55:18+08:00 ] 127.0.0.1 /index.php?c=Stat&id=4715302&startDate=1432310400000&endDate=1432915200000&pageSize=30&time=1432860918018
+ERR: 无法加载控制器:Stat
+
+[ 2015-05-29T08:55:18+08:00 ] 127.0.0.1 /json/m/scene/expand/list?id=4715302&time=1432860918019
+ERR: 无法加载控制器:Json/m/scene/expand/list
+
+[ 2015-05-29T08:55:27+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:55:31+08:00 ] 127.0.0.1 /assets/images/main/qq_11.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_11.jpg
+
+[ 2015-05-29T08:55:31+08:00 ] 127.0.0.1 /assets/images/main/qq_05.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_05.jpg
+
+[ 2015-05-29T08:55:31+08:00 ] 127.0.0.1 /assets/images/main/qq_12.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_12.jpg
+
+[ 2015-05-29T08:55:31+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:55:31+08:00 ] 127.0.0.1 /assets/images/main/qq_10.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_10.jpg
+
+[ 2015-05-29T08:55:33+08:00 ] 127.0.0.1 /Public/css/images/creat_edit/data_icon_06.png
+ERR: 无法加载控制器:Public/css/images/creat_edit/data_icon_06.png
+
+[ 2015-05-29T08:55:33+08:00 ] 127.0.0.1 /Public/css/images/main/wei.png
+ERR: 无法加载控制器:Public/css/images/main/wei.png
+
+[ 2015-05-29T08:55:33+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:56:00+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:56:03+08:00 ] 127.0.0.1 /json/m/u/company/info&time=1432860963338
+ERR: 无法加载控制器:Json/m/u/company/info&time=1432860963338
+
+[ 2015-05-29T08:56:03+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=XdStat&time=1432860963339
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T08:56:03+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=lists&pageSize=10&pageNo=1&time=1432860963339
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T08:56:03+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:56:05+08:00 ] 127.0.0.1 /json/m/u/company/info&time=1432860965576
+ERR: 无法加载控制器:Json/m/u/company/info&time=1432860965576
+
+[ 2015-05-29T08:56:05+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=XdStat&time=1432860965576
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T08:56:05+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=lists&pageSize=10&pageNo=1&time=1432860965576
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T08:56:05+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T08:56:10+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T09:05:02+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T09:05:02+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T09:05:02+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432861502812
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T09:18:40+08:00 ] 127.0.0.1 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-29T09:19:02+08:00 ] 127.0.0.1 /Public/kindeditor/php/file_manager_json.php?path=&order=NAME&dir=image&1432862342682
+ERR: 无法加载控制器:Public/kindeditor/php/file_manager_json.php
+
+[ 2015-05-29T09:20:15+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T09:20:15+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T09:20:15+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432862415352
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T09:20:48+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T09:20:51+08:00 ] 127.0.0.1 /assets/images/main/qq_11.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_11.jpg
+
+[ 2015-05-29T09:20:51+08:00 ] 127.0.0.1 /assets/images/main/qq_12.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_12.jpg
+
+[ 2015-05-29T09:20:51+08:00 ] 127.0.0.1 /assets/images/main/qq_10.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_10.jpg
+
+[ 2015-05-29T09:20:51+08:00 ] 127.0.0.1 /assets/images/main/qq_05.jpg
+ERR: 无法加载控制器:Assets/images/main/qq_05.jpg
+
+[ 2015-05-29T09:20:51+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T09:20:57+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T09:20:57+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T09:20:57+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432862457570
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T09:21:02+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T09:21:05+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T09:21:05+08:00 ] 127.0.0.1 /assets/ZeroClipboard.swf?nocache=1432862465467
+ERR: 无法加载控制器:Assets/ZeroClipboard.swf
+
+[ 2015-05-29T09:21:17+08:00 ] 127.0.0.1 /assets/images/mouserotate.ico
+ERR: 无法加载控制器:Assets/images/mouserotate.ico
+
+[ 2015-05-29T09:21:57+08:00 ] 127.0.0.1 /Public/css/images/bull.png
+ERR: 无法加载控制器:Public/css/images/bull.png
+
+[ 2015-05-29T09:21:57+08:00 ] 127.0.0.1 /Public/css/images/cut.png
+ERR: 无法加载控制器:Public/css/images/cut.png
+
+[ 2015-05-29T09:24:56+08:00 ] 127.0.0.1 /Public/css/images/point.png
+ERR: 无法加载控制器:Public/css/images/point.png
+
+[ 2015-05-29T09:24:56+08:00 ] 127.0.0.1 /Public/css/images/clean.png
+ERR: 无法加载控制器:Public/css/images/clean.png
+
+[ 2015-05-29T09:24:56+08:00 ] 127.0.0.1 /Public/css/waiwan/images/ui-bg_flat_75_ffffff_40x100.png
+ERR: 无法加载控制器:Public/css/waiwan/images/ui
+
+[ 2015-05-29T09:24:56+08:00 ] 127.0.0.1 /Public/css/images/addnew.png
+ERR: 无法加载控制器:Public/css/images/addnew.png
+
+[ 2015-05-29T09:24:56+08:00 ] 127.0.0.1 /Public/css/images/yuelan.png
+ERR: 无法加载控制器:Public/css/images/yuelan.png
+
+[ 2015-05-29T09:28:33+08:00 ] 127.0.0.1 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-29T09:58:49+08:00 ] 127.0.0.1 /Public/css/waiwan/images/ui-bg_glass_55_fbf9ee_1x400.png
+ERR: 无法加载控制器:Public/css/waiwan/images/ui
+
+[ 2015-05-29T22:14:13+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T22:14:13+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T22:14:13+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432908853744
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T22:14:16+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T22:14:16+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T22:14:16+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432908856560
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T22:19:49+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T22:19:49+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-29T22:19:49+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432909189461
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-29T22:19:53+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T22:19:57+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-29T22:19:57+08:00 ] 127.0.0.1 /assets/ZeroClipboard.swf?nocache=1432909197418
+ERR: 无法加载控制器:Assets/ZeroClipboard.swf
+

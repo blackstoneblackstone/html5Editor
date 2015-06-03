@@ -1,0 +1,332 @@
+<include file="Public:head"/>
+<body>
+    
+   <div class="col_main">
+        <div class="main_hd">
+            <div class="title_tab" id="topTab">
+                <ul class="tab_navs mt title_tab">
+                    <li class="tab_nav js_top  selected" data-id="mphelper"><a href="javascript:void(0);">
+                      <eq name="flag" value="useranli"> 用户案例列表<else/> 场景模板列表</eq> </a></li>
+                </ul>
+            </div>
+            <p class="extra_info">
+               <a class="button2" href=' ' style='margin-bottom: 2px;display:none'>返回</a>
+            </p>
+        </div>
+        <div style="padding: 10px;">
+            <div>
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+ 
+<script type="text/javascript">
+    function sureDelete() {        
+        return confirm("您确认要删除吗?");
+    }
+</script>
+
+<script type="text/javascript">
+    function setCommonClick() {        
+       document.getElementById('ctl00_ContentPlaceHolder1_gvPager_hidIsCommonClick').value = "1";
+    }
+</script>
+
+<script type="text/javascript" language="javascript">
+    function getChecked() {
+    var ids = new Array();
+    $.each($('table input:checked'), function(i, n){
+        ids.push( $(n).val() );
+    });
+    return ids;
+}
+
+function checkon(o){
+    if( o.checked == true ){
+        $(o).parents('tr').addClass('bg_on') ;
+    }else{
+        $(o).parents('tr').removeClass('bg_on') ;
+    }
+}
+
+function checkAll(o){
+    if( o.checked == true ){
+        $('input[name="checkbox"]').attr('checked','true');
+        $('tr[overstyle="on"]').addClass("bg_on");
+    }else{
+        $('input[name="checkbox"]').removeAttr('checked');
+        $('tr[overstyle="on"]').removeClass("bg_on");
+    }
+}
+
+//搜索用户
+var isSearchHidden = <neq name="isSearch" value="1">1<else/>0</neq>;
+function searchAlbum() {
+    if(isSearchHidden == 1) {
+        $("#searchAlbum_div").slideDown("fast");
+        $(".searchAlbum_action").html("搜索完毕");
+        isSearchHidden = 0;
+    }else {
+        $("#searchAlbum_div").slideUp("fast");
+        $(".searchAlbum_action").html("搜索相册");
+        isSearchHidden = 1;
+    }
+}
+
+var ctrl = function(){
+}
+ctrl.prototype = {
+	del:function(id){
+		var id = id ? id : getChecked();
+		id = id.toString();
+		if(id=='' || id==0){
+			ui.error("请选择要删除的相册");return false;
+		}
+		if( confirm("是否删除{$ts['app']['app_alias']}？") ){
+		  $.post( '__URL__&act=delete_album',{id:id},function(text ){
+			  if( text == 1 ){
+				  ui.success( "删除多张{$ts['app']['app_alias']}成功" );
+				  var id_list = id.split( ',' );   
+				  for (var j=0 ; j< id_list.length ; j++   ){
+					  $('#list_'+id_list[j]).remove(); 
+				  }
+			  }else if( text == 2 ){
+				  ui.success( "删除成功" );
+				  $('#list_'+id).remove();
+			  }else{
+				  ui.error( "删除失败" );
+			  }
+		  });
+		}
+	},
+	edit:function(id,act){
+	  if( act == 'recommend' ){
+		  v= "推荐";
+		  v2 = "取消推荐";
+		  act2 = 'cancel';
+		
+	  }else{
+		  v = "取消推荐";
+		  v2 = "推荐";
+		  act2 = 'recommend';
+	  }
+	    $.post('__URL__&act=doChangeIsHot',{id:id,type:act},function( text ){
+			  if( text == 1 ){
+			  ui.success( "操作成功" );
+			  $('#button'+id).html('<a href="javascript:void(0);" onclick="c.edit('+id+',\''+act2+'\')">'+v2+'</a>');
+		   }else{
+			  ui.error( "设置失败" );
+		   }
+	    });
+	}
+}
+var c = null;
+var url = location.href.lastIndexOf("&act") == -1 ? location.href.substring((location.href.lastIndexOf("/")) + 1) : location.href.substring((location.href.lastIndexOf("/")) + 1, location.href.lastIndexOf("&act"));
+    
+</script>
+ 
+ 
+
+      <!--内容显示 Begin-->
+     <div class="col_main">
+         
+        <div style="padding-top: 10px; padding-left: 10px; padding-right: 10px;">
+           用户案例名称:
+            <input name="scenename_varchar" type="text"  class="search" style="width: 100px;" />&nbsp;&nbsp;&nbsp;&nbsp;状态:
+            <select name="delete_int">
+	<option   value="">全部</option>
+	<option value="2">启用</option>
+	<option value="1">停用</option>
+	 
+</select>
+
+            <input name="scenename_varchar" type="text"  class="search" style="width: 100px;" />&nbsp;&nbsp;&nbsp;&nbsp; 排序:
+            <select name="delete_int">
+	<option   value="sceneid_bigint">添加时间</option>
+	<option value="rank">权重值</option>
+ 	  </select>
+
+            <span id="Js_bind" class="btn btn_primary btn_input">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnSearch" value="查询" id="ctl00_ContentPlaceHolder1_btnSearch" />
+            </span>
+             <font color="red"> 状态说明：权重越大越前面</font>
+        </div>
+        <div style="padding: 10px;">
+            <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	    <eq name="flag" value="useranli">  
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="gv">
+                        <tr>
+                            <th scope="col" width="3%">
+                                ID
+                            </th>
+                              <th align="center" scope="col" abbr="lbtnOperate">操作</th>
+                            <th scope="col" width="10%"><span style="padding-top: 10px; padding-left: 10px; padding-right: 10px;">案例名称</span></th>
+                            <th scope="col" width="15%">
+                              缩略图
+                          </th>
+                            <th scope="col" width="15%">
+                              翻页方式
+                          </th>
+                            <th scope="col" width="7%">
+                               审核状态</th>
+                            <th scope="col" width="8%">权重</th>
+                            <th scope="col" width="15%">
+                              是否在案例中显示
+                          </th>
+                            <th scope="col" width="15%">
+                                添加时间
+                            </th>
+                        </tr>
+                        
+                                
+                              <foreach name='select' item='item' >
+                                <tr onMouseOver="this.className='RecordRowOver'" onMouseOut="this.className=''">
+                                    <td align="center">
+                                       {$item.sceneid_bigint}
+                                    </td>
+                                    <td align="center" style="width:60px;"> <a href="?c=scene&a=e&id={$item.sceneid_bigint}"><img src="/assets/admin/images/edit.png" /> </a>
+                                    <a href="javascript:;" onClick="javascript:if(confirm('你确信要删除[{$item.scenename_varchar}]吗？')) window.location='?c=scene&a=del&id={$item.sceneid_bigint}<eq name="flag" value="useranli">&flag=useranli</eq>'"><img src="/assets/admin/images/delet.png" /> </a>
+                                      <a href="?c=scene&a=copytos&id={$item.sceneid_bigint}"> 复制为系统模板</a>
+                                      
+                                      
+                                    </td>
+                                    <td>
+                                        <a href="<eq name="IS_OPEN_STATIC" value="1">/v-{$item.scenecode_varchar}?preview=preview<else/>/index.php?c=view&id={$item.scenecode_varchar}&preview=preview</eq>" target="_blank" title="点击预览"> {$item.scenename_varchar}</a>
+                                    </td>
+                                    <td>
+                                        <img src="/Uploads/{$item.thumbnail_varchar}" class="thbnail">
+                                    </td>
+                                    <td>
+                                       {$item.movietype_int|getPageMode=1,###}
+                                    </td>
+                                    <td>
+                                      <eq name="item['shenhe']" value="1"> 已审核<a href="/adminc.php?c=scene&a=shenhe&id={$item.sceneid_bigint}&no=1">【取消通过】</a><else/> 未审核 <a href="/adminc.php?c=scene&a=shenhe&id={$item.sceneid_bigint}">【点击通过】</a></eq>
+                                    </td>
+                                    <td>  {$item.rank}</td>
+                                    <td>
+                                         <eq name="item['showstatus_int']" value="1"> 显示<a href="/adminc.php?c=scene&a=is_public&id={$item.sceneid_bigint}&no=1">【取消显示】</a><else/> 不显示 <a href="/adminc.php?c=scene&a=is_public&id={$item.sceneid_bigint}">【点击显示】</a></eq>
+                                    </td>
+                                    <td>
+                                      {$item.createtime_time}
+                                    </td>
+                                </tr>
+                                  </foreach>
+            
+                                <tr>
+                                <td colspan="11">
+                                 
+                  
+                     
+                                </td>
+                                </tr>
+                            
+                    </table>
+                    <else/>  
+                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="gv">
+                        <tr>
+                            <th scope="col" width="3%">
+                                ID
+                            </th>
+                              <th align="center" scope="col" abbr="lbtnOperate">操作</th>
+                            <th scope="col" width="10%"><span style="padding-top: 10px; padding-left: 10px; padding-right: 10px;">模板名称</span></th>
+                            <th scope="col" width="15%">
+                              缩略图
+                          </th>
+                            <th scope="col" width="15%">
+                              翻页方式
+                          </th>
+                            <th scope="col" width="7%">
+                                状态</th>
+                            <th scope="col" width="8%">权重</th>
+                            <th scope="col" width="15%">
+                              使用次数
+                          </th>
+                            <th scope="col" width="15%">
+                                添加时间
+                            </th>
+                        </tr>
+                        
+                                
+                              <foreach name='select' item='item' >
+                                <tr onMouseOver="this.className='RecordRowOver'" onMouseOut="this.className=''">
+                                    <td align="center">
+                                       {$item.sceneid_bigint}
+                                    </td>
+                                    <td align="center" style="width:60px;"> <a href="?c=scene&a=e&id={$item.sceneid_bigint}"><img src="/assets/admin/images/edit.png" /> </a>
+                                    <a href="javascript:;" onClick="javascript:if(confirm('你确信要删除[{$item.scenename_varchar}]吗？')) window.location='?c=scene&a=del&id={$item.sceneid_bigint}<eq name="flag" value="useranli">&flag=useranli</eq>'"><img src="/assets/admin/images/delet.png" /> </a>
+                                      <a href="?c=scene&a=copytos&id={$item.sceneid_bigint}"> 复制为系统模板</a>
+                                    </td>
+                                    <td>
+                                        {$item.scenename_varchar}
+                                    </td>
+                                    <td>
+                                        <img src="/Uploads/{$item.thumbnail_varchar}" class="thbnail">
+                                    </td>
+                                    <td>
+                                       {$item.movietype_int|getPageMode=1,###}
+                                    </td>
+                                    <td>
+                                      <eq name="item['delete_int']" value="0"> 启用<else/> 禁用</eq>
+                                    </td>
+                                    <td>  {$item.rank}</td>
+                                    <td>
+                                         {$item.usecount_int}次
+                                    </td>
+                                    <td>
+                                      {$item.createtime_time}
+                                    </td>
+                                </tr>
+                                  </foreach>
+            
+                                <tr>
+                                <td colspan="11">
+                                 
+                  
+                     
+                                </td>
+                                </tr>
+                            
+                    </table>
+                    
+                    
+                    </eq>
+                    
+                       <div class="pages">
+                        {$page}
+                </div>
+                
+</div>
+        </div>
+    </div>
+    <!--内容显示 End-->
+
+
+
+
+    
+           
+        
+
+<div id="divIsSetHeight" style="display: none;">
+    1
+</div>
+
+
+
+<script type="text/javascript">
+    // <![CDATA[
+    //    function ShowVisibleColumnWindow() {
+    //        pcVisibleColumn.Show();
+    //    }
+    // ]]> 
+</script>
+
+<script type='text/javascript'>    SetHeight();</script>
+
+
+                    
+</div>
+            </div>
+        </div>
+    </div>
+
+ 
+</body>
+</html>

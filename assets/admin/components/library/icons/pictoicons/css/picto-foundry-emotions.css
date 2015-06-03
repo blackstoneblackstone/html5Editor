@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "picto-foundry-emotions";
+  src: url("../fonts/picto-foundry-emotions.eot");
+  src: url("../fonts/picto-foundry-emotions.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-emotions.woff") format("woff"),
+       url("../fonts/picto-foundry-emotions.ttf") format("truetype"),
+       url("../fonts/picto-foundry-emotions.svg#picto-foundry-emotions") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-emotions";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angel:before,
+.icon-angry-sick:before,
+.icon-angry:before,
+.icon-bitter:before,
+.icon-concerned:before,
+.icon-cool:before,
+.icon-crushing:before,
+.icon-cyclopse:before,
+.icon-dead:before,
+.icon-depressed:before,
+.icon-devil:before,
+.icon-disappointed-1:before,
+.icon-disappointed-2:before,
+.icon-excited-smirk:before,
+.icon-excited:before,
+.icon-expletive:before,
+.icon-feeling-loved:before,
+.icon-geeky:before,
+.icon-greedy:before,
+.icon-grumpy:before,
+.icon-happy-content:before,
+.icon-happy-wink:before,
+.icon-happy:before,
+.icon-hard-laugh:before,
+.icon-in-love:before,
+.icon-joyful:before,
+.icon-laughing:before,
+.icon-looking-shocked:before,
+.icon-looking-smirk:before,
+.icon-looking-talking:before,
+.icon-loving:before,
+.icon-no-snitching:before,
+.icon-not-excited:before,
+.icon-question:before,
+.icon-quiet-laugh:before,
+.icon-quiet:before,
+.icon-sad:before,
+.icon-sick:before,
+.icon-silly:before,
+.icon-sneaky-wink:before,
+.icon-sneaky:before,
+.icon-speechless:before,
+.icon-surprised:before,
+.icon-thumbs-down-fill:before,
+.icon-thumbs-down:before,
+.icon-thumbs-up-fill:before,
+.icon-thumbs-up:before,
+.icon-tired:before,
+.icon-whistle-blower:before,
+.icon-yawning:before,
+.icon-yelling-disbelief:before,
+.icon-yelling:before {
+  font-family: "picto-foundry-emotions";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-angel:before { content: "\f100"; }
+.icon-angry-sick:before { content: "\f101"; }
+.icon-angry:before { content: "\f102"; }
+.icon-bitter:before { content: "\f103"; }
+.icon-concerned:before { content: "\f104"; }
+.icon-cool:before { content: "\f105"; }
+.icon-crushing:before { content: "\f106"; }
+.icon-cyclopse:before { content: "\f107"; }
+.icon-dead:before { content: "\f108"; }
+.icon-depressed:before { content: "\f109"; }
+.icon-devil:before { content: "\f10a"; }
+.icon-disappointed-1:before { content: "\f10b"; }
+.icon-disappointed-2:before { content: "\f10c"; }
+.icon-excited-smirk:before { content: "\f10d"; }
+.icon-excited:before { content: "\f10e"; }
+.icon-expletive:before { content: "\f10f"; }
+.icon-feeling-loved:before { content: "\f110"; }
+.icon-geeky:before { content: "\f111"; }
+.icon-greedy:before { content: "\f112"; }
+.icon-grumpy:before { content: "\f113"; }
+.icon-happy-content:before { content: "\f114"; }
+.icon-happy-wink:before { content: "\f115"; }
+.icon-happy:before { content: "\f116"; }
+.icon-hard-laugh:before { content: "\f117"; }
+.icon-in-love:before { content: "\f118"; }
+.icon-joyful:before { content: "\f119"; }
+.icon-laughing:before { content: "\f11a"; }
+.icon-looking-shocked:before { content: "\f11b"; }
+.icon-looking-smirk:before { content: "\f11c"; }
+.icon-looking-talking:before { content: "\f11d"; }
+.icon-loving:before { content: "\f11e"; }
+.icon-no-snitching:before { content: "\f11f"; }
+.icon-not-excited:before { content: "\f120"; }
+.icon-question:before { content: "\f121"; }
+.icon-quiet-laugh:before { content: "\f122"; }
+.icon-quiet:before { content: "\f123"; }
+.icon-sad:before { content: "\f124"; }
+.icon-sick:before { content: "\f125"; }
+.icon-silly:before { content: "\f126"; }
+.icon-sneaky-wink:before { content: "\f127"; }
+.icon-sneaky:before { content: "\f128"; }
+.icon-speechless:before { content: "\f129"; }
+.icon-surprised:before { content: "\f12a"; }
+.icon-thumbs-down-fill:before { content: "\f12b"; }
+.icon-thumbs-down:before { content: "\f12c"; }
+.icon-thumbs-up-fill:before { content: "\f12d"; }
+.icon-thumbs-up:before { content: "\f12e"; }
+.icon-tired:before { content: "\f12f"; }
+.icon-whistle-blower:before { content: "\f130"; }
+.icon-yawning:before { content: "\f131"; }
+.icon-yelling-disbelief:before { content: "\f132"; }
+.icon-yelling:before { content: "\f133"; }

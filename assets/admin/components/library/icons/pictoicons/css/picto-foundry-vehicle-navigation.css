@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "picto-foundry-vehicle-navigation";
+  src: url("../fonts/picto-foundry-vehicle-navigation.eot");
+  src: url("../fonts/picto-foundry-vehicle-navigation.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-vehicle-navigation.woff") format("woff"),
+       url("../fonts/picto-foundry-vehicle-navigation.ttf") format("truetype"),
+       url("../fonts/picto-foundry-vehicle-navigation.svg#picto-foundry-vehicle-navigation") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-vehicle-navigation";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-axles:before,
+.icon-bolt:before,
+.icon-brakes:before,
+.icon-bus:before,
+.icon-car-battery:before,
+.icon-car-jack:before,
+.icon-car-key:before,
+.icon-car-temp:before,
+.icon-car:before,
+.icon-do-not-enter:before,
+.icon-dropped-pin:before,
+.icon-engine-block:before,
+.icon-engine-cylinder:before,
+.icon-fan:before,
+.icon-filter:before,
+.icon-fork-lift:before,
+.icon-four-wheeler:before,
+.icon-gas-pump:before,
+.icon-gear-shift:before,
+.icon-hazard:before,
+.icon-headlight:before,
+.icon-left-right:before,
+.icon-location-1:before,
+.icon-location-2:before,
+.icon-location-3:before,
+.icon-location-fill-1:before,
+.icon-location-fill-2:before,
+.icon-location-fill-3:before,
+.icon-map-location-1:before,
+.icon-map-location-2:before,
+.icon-map-location-fill-1:before,
+.icon-map-location-fill-2:before,
+.icon-motor-bike:before,
+.icon-motor-oil:before,
+.icon-no-parking:before,
+.icon-oil-drip-1:before,
+.icon-oil-drip-2:before,
+.icon-parking:before,
+.icon-race-helmet:before,
+.icon-road-sign:before,
+.icon-road:before,
+.icon-speedometer:before,
+.icon-steering-wheel:before,
+.icon-stop-sign:before,
+.icon-tank-empty:before,
+.icon-tank-full:before,
+.icon-tire-tread:before,
+.icon-tire-wrench:before,
+.icon-tire:before,
+.icon-traction-control:before,
+.icon-traffic-cone:before,
+.icon-traffic-light:before,
+.icon-truck:before,
+.icon-turn-left:before,
+.icon-turn-right:before,
+.icon-windshield-wiper:before {
+  font-family: "picto-foundry-vehicle-navigation";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-axles:before { content: "\f100"; }
+.icon-bolt:before { content: "\f101"; }
+.icon-brakes:before { content: "\f102"; }
+.icon-bus:before { content: "\f103"; }
+.icon-car-battery:before { content: "\f104"; }
+.icon-car-jack:before { content: "\f105"; }
+.icon-car-key:before { content: "\f106"; }
+.icon-car-temp:before { content: "\f107"; }
+.icon-car:before { content: "\f108"; }
+.icon-do-not-enter:before { content: "\f109"; }
+.icon-dropped-pin:before { content: "\f10a"; }
+.icon-engine-block:before { content: "\f10b"; }
+.icon-engine-cylinder:before { content: "\f10c"; }
+.icon-fan:before { content: "\f10d"; }
+.icon-filter:before { content: "\f10e"; }
+.icon-fork-lift:before { content: "\f10f"; }
+.icon-four-wheeler:before { content: "\f110"; }
+.icon-gas-pump:before { content: "\f111"; }
+.icon-gear-shift:before { content: "\f112"; }
+.icon-hazard:before { content: "\f113"; }
+.icon-headlight:before { content: "\f114"; }
+.icon-left-right:before { content: "\f115"; }
+.icon-location-1:before { content: "\f116"; }
+.icon-location-2:before { content: "\f117"; }
+.icon-location-3:before { content: "\f118"; }
+.icon-location-fill-1:before { content: "\f119"; }
+.icon-location-fill-2:before { content: "\f11a"; }
+.icon-location-fill-3:before { content: "\f11b"; }
+.icon-map-location-1:before { content: "\f11c"; }
+.icon-map-location-2:before { content: "\f11d"; }
+.icon-map-location-fill-1:before { content: "\f11e"; }
+.icon-map-location-fill-2:before { content: "\f11f"; }
+.icon-motor-bike:before { content: "\f120"; }
+.icon-motor-oil:before { content: "\f121"; }
+.icon-no-parking:before { content: "\f122"; }
+.icon-oil-drip-1:before { content: "\f123"; }
+.icon-oil-drip-2:before { content: "\f124"; }
+.icon-parking:before { content: "\f125"; }
+.icon-race-helmet:before { content: "\f126"; }
+.icon-road-sign:before { content: "\f127"; }
+.icon-road:before { content: "\f128"; }
+.icon-speedometer:before { content: "\f129"; }
+.icon-steering-wheel:before { content: "\f12a"; }
+.icon-stop-sign:before { content: "\f12b"; }
+.icon-tank-empty:before { content: "\f12c"; }
+.icon-tank-full:before { content: "\f12d"; }
+.icon-tire-tread:before { content: "\f12e"; }
+.icon-tire-wrench:before { content: "\f12f"; }
+.icon-tire:before { content: "\f130"; }
+.icon-traction-control:before { content: "\f131"; }
+.icon-traffic-cone:before { content: "\f132"; }
+.icon-traffic-light:before { content: "\f133"; }
+.icon-truck:before { content: "\f134"; }
+.icon-turn-left:before { content: "\f135"; }
+.icon-turn-right:before { content: "\f136"; }
+.icon-windshield-wiper:before { content: "\f137"; }

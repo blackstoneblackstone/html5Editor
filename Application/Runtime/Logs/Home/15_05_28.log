@@ -1,0 +1,54 @@
+[ 2015-05-28T23:42:41+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:42:41+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:42:58+08:00 ] 127.0.0.1 /Public/css/images/login/QQ.png
+ERR: 无法加载控制器:Public/css/images/login/QQ.png
+
+[ 2015-05-28T23:42:58+08:00 ] 127.0.0.1 /Public/css/images/login/weixin.png
+ERR: 无法加载控制器:Public/css/images/login/weixin.png
+
+[ 2015-05-28T23:43:22+08:00 ] 127.0.0.1 /admin.php
+ERR: 无法加载控制器:Admin.php
+
+[ 2015-05-28T23:43:32+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:43:32+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:44:02+08:00 ] 127.0.0.1 /index.php?c=Usercenter&a=promotion&code=001&time=1432827842825
+ERR: 无法加载控制器:Usercenter
+
+[ 2015-05-28T23:44:03+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-28T23:44:06+08:00 ] 127.0.0.1 /assets/images/main/fuwushang.png
+ERR: 无法加载控制器:Assets/images/main/fuwushang.png
+
+[ 2015-05-28T23:44:19+08:00 ] 127.0.0.1 /?c=ad&a=preview
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:45:37+08:00 ] 127.0.0.1 /?c=ad&a=preview
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:46:08+08:00 ] 127.0.0.1 /?c=ad&a=preview
+ERR: 无法加载控制器:Ad
+
+[ 2015-05-28T23:46:31+08:00 ] 127.0.0.1 /assets/images/mouserotate.ico
+ERR: 无法加载控制器:Assets/images/mouserotate.ico
+
+[ 2015-05-28T23:50:42+08:00 ] 127.0.0.1 /admin.php
+ERR: 无法加载控制器:Admin.php
+
+[ 2015-05-28T23:51:35+08:00 ] 127.0.0.1 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-28T23:51:36+08:00 ] 127.0.0.1 /WebResource.axd?d=lGGnMoztwih6_if2bLAv159HZzWjh_TXKB3s-di91LyF4ZXtIq617-NOIZHOXHWJbA_yDpJu1gVq-WgKWEHprPRsKag1&t=634259354654344891
+ERR: 无法加载控制器:WebResource.axd
+
+[ 2015-05-28T23:51:49+08:00 ] 127.0.0.1 /Image/rowback.gif
+ERR: 无法加载控制器:Image/rowback.gif
+

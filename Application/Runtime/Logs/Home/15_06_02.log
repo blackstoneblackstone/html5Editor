@@ -1,0 +1,12 @@
+[ 2015-06-02T08:48:26+08:00 ] 127.0.0.1 /index.php?c=ad&a=logo
+ERR: 无法加载控制器:Ad
+
+[ 2015-06-02T08:48:27+08:00 ] 127.0.0.1 /index.php?c=ad&a=friendlinks
+ERR: 无法加载控制器:Ad
+
+[ 2015-06-02T10:38:02+08:00 ] 127.0.0.1 /apple-touch-icon-precomposed.png
+ERR: 无法加载控制器:Apple
+
+[ 2015-06-02T10:38:02+08:00 ] 127.0.0.1 /apple-touch-icon.png
+ERR: 无法加载控制器:Apple
+

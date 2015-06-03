@@ -1,0 +1,40 @@
+@charset "utf-8";
+.account{float:right;padding-top:15px;font-size:0}
+.account a{color:#222}
+.account a:hover{color:#FF8F00}
+.account a.account_primary_link{color:#2e7dc6}
+.account_meta{display:inline-block;*display:inline;*zoom:1;vertical-align:top;font-size:14px}
+.account_info{position:relative;margin-right:5px}
+.account_info .avatar{position:absolute;top:0;left:-50px;width:38px;height:38px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;background-color:#f0f0f0}
+.account_info .type{position:absolute;top:2px;left:0}
+.account_info .nickname{display:inline-block;font-weight:400;font-style:normal;margin-top:18px}
+.account_inbox{position:relative;font-size:11px;z-index:1;margin-top:1px}
+.account_inbox.on .account_inbox_switch{position:relative;z-index:1;border-color:#adadad;border-top-left-radius:3px;-moz-border-radius-topleft:3px;-webkit-border-top-left-radius:3px;border-top-right-radius:3px;-moz-border-radius-topright:3px;-webkit-border-top-right-radius:3px;background-color:#eee}
+.account_inbox_switch{display:block;width:45px;height:49px;line-height:49px;text-align:center;border:1px solid transparent;border-bottom-width:0}
+.account_inbox_switch:hover{text-decoration:none}
+.account_inbox_switch i.icon_common{cursor:pointer;vertical-align:top;margin-top:16px}
+.account_inbox_switch i.inbox{*margin-top:6px}
+.account_inbox_switch i.notices{*margin-top:6px;margin-left:-12px}
+.account_message_box{position:absolute;top:100%;right:0;margin-top:-1px;padding:.5em 0;border:1px solid #adadad;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-top-left-radius:0;-moz-border-radius-topleft:0;-webkit-border-top-left-radius:0;border-top-right-radius:0;-moz-border-radius-topright:0;-webkit-border-top-right-radius:0;background-color:#eee}
+.account_message_box ul{width:190px}
+.account_message_box li{min-height:32px}
+.account_message_link{position:relative;display:block;line-height:32px;padding-left:1em}
+.account_message_link strong{display:block;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-right:4em;font-weight:400;font-style:normal;cursor:pointer}
+.account_message_link .read_more{position:absolute;right:1em;top:0;color:#2e7dc6;cursor:pointer}
+.account_message_link:hover{background-color:#eee;text-decoration:none}
+.btn.btn_inbox_closed{display:block;margin:.5em 1em 0;background-color:#f4f4f4;background-image:-moz-linear-gradient(top,#f9f9f9 0,#f0f0f0 100%);background-image:-webkit-gradient(linear,0 0,0 100%,from(#f9f9f9),to(#f0f0f0));background-image:-webkit-linear-gradient(top,#f9f9f9 0,#f0f0f0 100%);background-image:-o-linear-gradient(top,#f9f9f9 0,#f0f0f0 100%);background-image:linear-gradient(to bottom,#f9f9f9 0,#f0f0f0 100%);border-color:#c3c3c3;color:#000;height:24px;line-height:24px;*line-height:22px;width:auto;padding-left:0;padding-right:0;font-size:11px}
+.btn.btn_inbox_closed:hover{background-color:#f8f8f8;background-image:-moz-linear-gradient(top,#f9f9f9 0,#f8f8f8 100%);background-image:-webkit-gradient(linear,0 0,0 100%,from(#f9f9f9),to(#f8f8f8));background-image:-webkit-linear-gradient(top,#f9f9f9 0,#f8f8f8 100%);background-image:-o-linear-gradient(top,#f9f9f9 0,#f8f8f8 100%);background-image:linear-gradient(to bottom,#f9f9f9 0,#f8f8f8 100%);box-shadow:0 1px 3px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);color:#000}
+.btn.btn_inbox_closed button{color:#000}
+.btn.btn_inbox_closed:hover{color:#222}
+.account_logout a{display:inline-block;margin-left:-1px;margin-top:18px;padding-left:14px;box-shadow:inset 1px 0 0 0 #fff;-moz-box-shadow:inset 1px 0 0 0 #fff;-webkit-box-shadow:inset 1px 0 0 0 #fff;border-left:1px solid #adadad}
+.account_faq{padding-top:18px}
+.account_faq a{display:inline-block}
+.logo{float:left;padding-top:13px;font-size:24px; height:50px;overflow:hidden;}
+.logo .logoa{display:block;width:268px;height:40px;overflow:hidden;text-decoration:none;*background:transparent url(../img/bg_logo.gif) 0 0 no-repeat;*line-height:120px}
+.logo .logoa:before{display:inline-block;content:url(../img/bg_logo.png)}
+.logo a{font-size:12px;float:left;line-height:70px;font-weight:200;}
+.head .inner{*zoom:1;height:70px}
+
+.head .inner:after{content:"\200B";display:block;height:0;clear:both}
+.head .inner.wrp{margin-left:auto;margin-right:auto; padding:0 10px;}
+.head_box{position:relative;background-color:#FFF;box-shadow:0 2px 3px rgba(0,0,0,0.05),inset 0 -1px 0 0 #fcfcfc;-moz-box-shadow:0 2px 3px rgba(0,0,0,0.05),inset 0 -1px 0 0 #fcfcfc;-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.05),inset 0 -1px 0 0 #fcfcfc;border-top:8px solid #AD6903;border-bottom:0px solid #d3d3d3}

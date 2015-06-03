@@ -1,0 +1,82 @@
+<include file="Public:head"/>
+<body>
+    
+     <!--内容显示 Begin-->
+    <div class="col_main">
+        <input name="ctl00$ContentPlaceHolder1$txt" type="hidden" id="ctl00_ContentPlaceHolder1_txt" />
+        <div class="main_hd">
+            <div class="title_tab" id="topTab">
+                <ul class="tab_navs mt title_tab">
+                    <li class="tab_nav js_top  selected" data-id="mphelper"><a href="javascript:void(0);">
+                     编辑广告</eq>   </a></li>
+                </ul>
+            </div>
+             
+        </div>
+        
+        
+        
+       <form action="" method="post">
+        <div style="text-align: left; padding: 20px; text-align: left;">
+           
+            
+             
+             
+            <!--打印帮助关键字配置-->
+          
+            <hr style="width: 50%; size: 1px; border: none;" />
+            <table style="vertical-align: top;">
+                <tr>
+                    <td style="width: 198px;">
+                          广告页名称</eq>
+                    </td>
+                    <td>
+                          <span class="frm_input_box">
+                            <input name="user[pagename_varchar]" type="text"   class="frm_input"  value="{$user.pagename_varchar}" /></span>
+                    </td>
+                    <td rowspan="2"> <a href="?c=adv&a=getoe&page={$user.pagecurrentnum_int}" target="_blank"  style=" font-size:20px">前往前台设计器编辑</a>  <label style="font-size:12px; color:red"> (编辑广告注意：场景名称、场景封面这两个不要替换掉，可以称位置、大小，因为此是用用户的场景来替换的)</label> </td>
+                </tr>
+                
+                <tr>
+                    <td  >
+                        排序
+                    </td>
+                    <td>
+                          <span class="frm_input_box">
+                            <input name="user[pagecurrentnum_int]" type="text"   class="frm_input" style="width: 200px;" value="{$user.pagecurrentnum_int}" /></span> 
+                          
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                         预览效果
+                    </td>
+                    <td colspan="2">
+                        <iframe style="border: 0; width: 322px; height: 641px;" src="/index.php?c=view&id=1100&preview=preview"></iframe>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                    </td>
+                    <td colspan="2">
+                    </td>
+                </tr>
+            </table>
+          <div class="tool_bar border with_form">
+                <span id="Span1" class="btn btn_primary btn_input">
+                         <input type="hidden"  name="id" value="{$user.sceneid_bigint}" />
+                          <input type="hidden"  name="userid_int" value="{$user.userid_int}" />
+                    <input type="submit" name=" " value="保存"   /></span>
+            </div>
+        </div>
+        </form>
+        
+    </div>
+    <!--内容显示 End-->
+
+
+ 
+</body>
+</html>

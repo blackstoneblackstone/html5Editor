@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "picto-foundry-weather";
+  src: url("../fonts/picto-foundry-weather.eot");
+  src: url("../fonts/picto-foundry-weather.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-weather.woff") format("woff"),
+       url("../fonts/picto-foundry-weather.ttf") format("truetype"),
+       url("../fonts/picto-foundry-weather.svg#picto-foundry-weather") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-weather";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-celsius:before,
+.icon-clear-night:before,
+.icon-clearn-night-moon:before,
+.icon-cloud-stars:before,
+.icon-cloudy-fill:before,
+.icon-cloudy-night:before,
+.icon-cloudy:before,
+.icon-dusk:before,
+.icon-eclipse:before,
+.icon-fahrenheit:before,
+.icon-haze-night:before,
+.icon-haze:before,
+.icon-heavy-fog:before,
+.icon-heavy-rain-fill:before,
+.icon-heavy-rain:before,
+.icon-heavy-snow:before,
+.icon-hurricane-fill:before,
+.icon-hurricane:before,
+.icon-ice:before,
+.icon-light-fog:before,
+.icon-light-rain:before,
+.icon-light-sleet:before,
+.icon-light-snow:before,
+.icon-light-storm:before,
+.icon-lightning-1:before,
+.icon-lightning-2:before,
+.icon-lightning-fill-1:before,
+.icon-lightning-fill-2:before,
+.icon-moon-fill:before,
+.icon-moon:before,
+.icon-multiple-clouds:before,
+.icon-night-day:before,
+.icon-partly-cloudy:before,
+.icon-rain-cloud-1:before,
+.icon-rain-cloud-2:before,
+.icon-rain:before,
+.icon-rainbow:before,
+.icon-sleet:before,
+.icon-snow-shovel:before,
+.icon-snow:before,
+.icon-storm:before,
+.icon-sun-down:before,
+.icon-sun-up:before,
+.icon-sun-valley:before,
+.icon-sunny-fill:before,
+.icon-sunny:before,
+.icon-thermometer-1:before,
+.icon-thermometer-2:before,
+.icon-tornado:before,
+.icon-umbrella-fill:before,
+.icon-umbrella:before,
+.icon-weather-alert:before,
+.icon-weather-balloon:before,
+.icon-weather-radar:before,
+.icon-wind-sock:before,
+.icon-wind-speed-censor:before,
+.icon-wind-turbine:before,
+.icon-windy:before {
+  font-family: "picto-foundry-weather";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-celsius:before { content: "\f100"; }
+.icon-clear-night:before { content: "\f101"; }
+.icon-clearn-night-moon:before { content: "\f102"; }
+.icon-cloud-stars:before { content: "\f103"; }
+.icon-cloudy-fill:before { content: "\f104"; }
+.icon-cloudy-night:before { content: "\f105"; }
+.icon-cloudy:before { content: "\f106"; }
+.icon-dusk:before { content: "\f107"; }
+.icon-eclipse:before { content: "\f108"; }
+.icon-fahrenheit:before { content: "\f109"; }
+.icon-haze-night:before { content: "\f10a"; }
+.icon-haze:before { content: "\f10b"; }
+.icon-heavy-fog:before { content: "\f10c"; }
+.icon-heavy-rain-fill:before { content: "\f10d"; }
+.icon-heavy-rain:before { content: "\f10e"; }
+.icon-heavy-snow:before { content: "\f10f"; }
+.icon-hurricane-fill:before { content: "\f110"; }
+.icon-hurricane:before { content: "\f111"; }
+.icon-ice:before { content: "\f112"; }
+.icon-light-fog:before { content: "\f113"; }
+.icon-light-rain:before { content: "\f114"; }
+.icon-light-sleet:before { content: "\f115"; }
+.icon-light-snow:before { content: "\f116"; }
+.icon-light-storm:before { content: "\f117"; }
+.icon-lightning-1:before { content: "\f118"; }
+.icon-lightning-2:before { content: "\f119"; }
+.icon-lightning-fill-1:before { content: "\f11a"; }
+.icon-lightning-fill-2:before { content: "\f11b"; }
+.icon-moon-fill:before { content: "\f11c"; }
+.icon-moon:before { content: "\f11d"; }
+.icon-multiple-clouds:before { content: "\f11e"; }
+.icon-night-day:before { content: "\f11f"; }
+.icon-partly-cloudy:before { content: "\f120"; }
+.icon-rain-cloud-1:before { content: "\f121"; }
+.icon-rain-cloud-2:before { content: "\f122"; }
+.icon-rain:before { content: "\f123"; }
+.icon-rainbow:before { content: "\f124"; }
+.icon-sleet:before { content: "\f125"; }
+.icon-snow-shovel:before { content: "\f126"; }
+.icon-snow:before { content: "\f127"; }
+.icon-storm:before { content: "\f128"; }
+.icon-sun-down:before { content: "\f129"; }
+.icon-sun-up:before { content: "\f12a"; }
+.icon-sun-valley:before { content: "\f12b"; }
+.icon-sunny-fill:before { content: "\f12c"; }
+.icon-sunny:before { content: "\f12d"; }
+.icon-thermometer-1:before { content: "\f12e"; }
+.icon-thermometer-2:before { content: "\f12f"; }
+.icon-tornado:before { content: "\f130"; }
+.icon-umbrella-fill:before { content: "\f131"; }
+.icon-umbrella:before { content: "\f132"; }
+.icon-weather-alert:before { content: "\f133"; }
+.icon-weather-balloon:before { content: "\f134"; }
+.icon-weather-radar:before { content: "\f135"; }
+.icon-wind-sock:before { content: "\f136"; }
+.icon-wind-speed-censor:before { content: "\f137"; }
+.icon-wind-turbine:before { content: "\f138"; }
+.icon-windy:before { content: "\f139"; }

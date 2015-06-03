@@ -1,0 +1,149 @@
+<include file="Public:head"/>
+<body>
+    
+   <div class="col_main">
+        <div class="main_hd">
+            <div class="title_tab" id="topTab">
+                <ul class="tab_navs mt title_tab">
+                    <li class="tab_nav js_top  selected" data-id="mphelper">
+                    <php>if($filetype_int ==1):</php>图片库列表<php>elseif($filetype_int ==2): </php>音乐库列表 
+<php>else: </php>背景库列表
+<php>endif;</php>
+                    </li>
+                </ul>
+            </div>
+            <p class="extra_info">
+               <a class="button2" href='?c=upfilesys&a=add&filetype={$filetype_int}' style='margin-bottom: 2px;'>添加<php>if($filetype_int ==1):</php>图片<php>elseif($filetype_int ==2): </php>音乐 
+<php>else: </php>背景
+<php>endif;</php></a>
+            </p>
+        </div>
+        <div style="padding: 10px;">
+            <div>
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+ 
+ 
+
+      <!--内容显示 Begin-->
+     <div class="col_main">
+         
+        <div style="padding-top: 10px; padding-left: 10px; padding-right: 10px;">
+           <form action="" method="post">
+            文件名
+            <input name="filename_varchar" type="text"  class="search" style="width: 100px;" value="{$filename_varchar}" />&nbsp;&nbsp;&nbsp;&nbsp; 排序:
+            <select name="order">
+	<option   value="fileid_bigint" <eq name="order" value="fileid_bigint"> selected="selected" </eq>>添加时间</option>
+	<option value="sizekb_int" <eq name="order" value="sizekb_int"> selected="selected" </eq>>文件大小</option>
+ 	  </select>
+
+            <span id="Js_bind" class="btn btn_primary btn_input">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnSearch" value="查询" id="ctl00_ContentPlaceHolder1_btnSearch" />
+            </span>
+             </form>
+        </div>
+        <div style="padding: 10px;">
+            <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	  
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="gv">
+                        <tr>
+                            <th scope="col" width="3%">
+                                ID
+                            </th>
+                              <th width="15%" align="center" scope="col" abbr="lbtnOperate">操作</th>
+                            <th scope="col" width="10%"><span style="padding-top: 10px; padding-left: 10px; padding-right: 10px;">文件名称</span></th>
+                            <th scope="col" >
+                              缩略图
+                          </th>
+                            <th scope="col" width="15%">
+                              后缀
+                          </th>
+                            <th scope="col" width="8%">类别</th>
+                            <th scope="col" width="15%">
+                                添加时间
+                            </th>
+                        </tr>
+                        
+                                
+                              <foreach name='select' item='item' >
+                                <tr onMouseOver="this.className='RecordRowOver'" onMouseOut="this.className=''">
+                                    <td align="center">
+                                       {$item.fileid_bigint}
+                                    </td>
+                                    <td align="center" style="width:60px;"> <a href="?c=upfilesys&a=e&id={$item.fileid_bigint}"><img src="/assets/admin/images/edit.png" /> </a>
+                                    <a href="javascript:;" onClick="javascript:if(confirm('你确信要删除[{$item.scenename_varchar}]吗？')) window.location='?c=upfilesys&a=del&id={$item.fileid_bigint}&filetype={$filetype_int}'"><img src="/assets/admin/images/delet.png" /> </a>
+                                      
+                                      
+                                    </td>
+                                    <td>
+                                      
+                                       {$item.filename_varchar} 
+                                    </td>
+                                    <td>
+                                      <eq name="filetype_int" value="2">
+                                      <audio controls><source src="/Uploads/{$item.filesrc_varchar}" type="audio/mpeg">你的浏览器不支持在线.</audio>
+                                       <else/>
+                                        <img src="/Uploads/{$item.filethumbsrc_varchar}" class="thbnail"></eq>
+                                    </td>
+                                    <td>
+                                       {$item.ext_varchar}
+                                    </td>
+                                    <td>    {$item.biztype_int|getBiztype=###}</td>
+                                    <td>
+                                      {$item.create_time}
+                                    </td>
+                                </tr>
+                                  </foreach>
+            
+                                <tr>
+                                <td colspan="9">
+                                 
+                  
+                     
+                                </td>
+                                </tr>
+                            
+                    </table>
+                   
+                    
+                       <div class="pages">
+                        {$page}
+                </div>
+                
+</div>
+        </div>
+    </div>
+    <!--内容显示 End-->
+
+
+
+
+    
+           
+        
+
+<div id="divIsSetHeight" style="display: none;">
+    1
+</div>
+
+
+
+<script type="text/javascript">
+    // <![CDATA[
+    //    function ShowVisibleColumnWindow() {
+    //        pcVisibleColumn.Show();
+    //    }
+    // ]]> 
+</script>
+
+<script type='text/javascript'>    SetHeight();</script>
+
+
+                    
+</div>
+            </div>
+        </div>
+    </div>
+
+ 
+</body>
+</html>

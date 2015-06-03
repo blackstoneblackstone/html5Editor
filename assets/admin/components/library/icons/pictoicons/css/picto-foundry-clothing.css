@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "picto-foundry-clothing";
+  src: url("../fonts/picto-foundry-clothing.eot");
+  src: url("../fonts/picto-foundry-clothing.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/picto-foundry-clothing.woff") format("woff"),
+       url("../fonts/picto-foundry-clothing.ttf") format("truetype"),
+       url("../fonts/picto-foundry-clothing.svg#picto-foundry-clothing") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "picto-foundry-clothing";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ball-cap:before,
+.icon-belt:before,
+.icon-boot:before,
+.icon-bow-tie:before,
+.icon-boxers:before,
+.icon-bra:before,
+.icon-button-up-shirt:before,
+.icon-button:before,
+.icon-cardigan:before,
+.icon-clothes-pin:before,
+.icon-cloths-hanger:before,
+.icon-dress-1:before,
+.icon-dress-2:before,
+.icon-glasses-1:before,
+.icon-glasses-2:before,
+.icon-glasses-3:before,
+.icon-hand-bag:before,
+.icon-hat-1:before,
+.icon-hat-2:before,
+.icon-heels:before,
+.icon-hoodie:before,
+.icon-jacket:before,
+.icon-long-sleeved-shirt:before,
+.icon-mittens:before,
+.icon-panties:before,
+.icon-pants:before,
+.icon-pocket-watch:before,
+.icon-purse:before,
+.icon-sandals:before,
+.icon-shoe:before,
+.icon-shorts:before,
+.icon-shutter-shades:before,
+.icon-skirt:before,
+.icon-socks-1:before,
+.icon-socks-2:before,
+.icon-sports-coat:before,
+.icon-sun-glasses-1:before,
+.icon-sun-glasses-2:before,
+.icon-swim-trunks:before,
+.icon-tanktop-1:before,
+.icon-tanktop-2:before,
+.icon-thong:before,
+.icon-tie:before,
+.icon-top-hat:before,
+.icon-tshirt-1:before,
+.icon-tshirt-2:before,
+.icon-tshirt-fill:before,
+.icon-vneck-tshirt:before,
+.icon-winter-hat:before,
+.icon-womens-tshirt:before,
+.icon-wrist-watch:before,
+.icon-zip-hoodie:before {
+  font-family: "picto-foundry-clothing";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-ball-cap:before { content: "\f100"; }
+.icon-belt:before { content: "\f101"; }
+.icon-boot:before { content: "\f102"; }
+.icon-bow-tie:before { content: "\f103"; }
+.icon-boxers:before { content: "\f104"; }
+.icon-bra:before { content: "\f105"; }
+.icon-button-up-shirt:before { content: "\f106"; }
+.icon-button:before { content: "\f107"; }
+.icon-cardigan:before { content: "\f108"; }
+.icon-clothes-pin:before { content: "\f109"; }
+.icon-cloths-hanger:before { content: "\f10a"; }
+.icon-dress-1:before { content: "\f10b"; }
+.icon-dress-2:before { content: "\f10c"; }
+.icon-glasses-1:before { content: "\f10d"; }
+.icon-glasses-2:before { content: "\f10e"; }
+.icon-glasses-3:before { content: "\f10f"; }
+.icon-hand-bag:before { content: "\f110"; }
+.icon-hat-1:before { content: "\f111"; }
+.icon-hat-2:before { content: "\f112"; }
+.icon-heels:before { content: "\f113"; }
+.icon-hoodie:before { content: "\f114"; }
+.icon-jacket:before { content: "\f115"; }
+.icon-long-sleeved-shirt:before { content: "\f116"; }
+.icon-mittens:before { content: "\f117"; }
+.icon-panties:before { content: "\f118"; }
+.icon-pants:before { content: "\f119"; }
+.icon-pocket-watch:before { content: "\f11a"; }
+.icon-purse:before { content: "\f11b"; }
+.icon-sandals:before { content: "\f11c"; }
+.icon-shoe:before { content: "\f11d"; }
+.icon-shorts:before { content: "\f11e"; }
+.icon-shutter-shades:before { content: "\f11f"; }
+.icon-skirt:before { content: "\f120"; }
+.icon-socks-1:before { content: "\f121"; }
+.icon-socks-2:before { content: "\f122"; }
+.icon-sports-coat:before { content: "\f123"; }
+.icon-sun-glasses-1:before { content: "\f124"; }
+.icon-sun-glasses-2:before { content: "\f125"; }
+.icon-swim-trunks:before { content: "\f126"; }
+.icon-tanktop-1:before { content: "\f127"; }
+.icon-tanktop-2:before { content: "\f128"; }
+.icon-thong:before { content: "\f129"; }
+.icon-tie:before { content: "\f12a"; }
+.icon-top-hat:before { content: "\f12b"; }
+.icon-tshirt-1:before { content: "\f12c"; }
+.icon-tshirt-2:before { content: "\f12d"; }
+.icon-tshirt-fill:before { content: "\f12e"; }
+.icon-vneck-tshirt:before { content: "\f12f"; }
+.icon-winter-hat:before { content: "\f130"; }
+.icon-womens-tshirt:before { content: "\f131"; }
+.icon-wrist-watch:before { content: "\f132"; }
+.icon-zip-hoodie:before { content: "\f133"; }
