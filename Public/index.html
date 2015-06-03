@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-controller="AppCtrl">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="一秀移动场景应用自营销管家,为中小微企业或团队提供业务场景应用展示、潜在客户在线报名收集、管理和二次营销" />
+<meta name="keywords" content="一秀,场景魔方,微场景,仿易企秀,免费,免费移动场景应用自营销管家,移动场景自营销管家,移动场景自营销工具,活动自营销管家,场景展示,免费的报名页,收集潜在客户,二次营销,轻CRM,提高移动场景营销效果" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="" type="image/x-icon" />
+<title>一秀|移动场景应用自营销管家</title>
+<script type="text/javascript">
+  var PREFIX_URL = "http://"+window.location.host+"/json/";
+  var VIEW_URL = "http://"+window.location.host+"/";
+  var JSON_URL = "http://"+window.location.host+"/index.php";
+  var PREFIX_S1_URL = "http://"+window.location.host+"/";
+  var PREFIX_HOST = "http://"+window.location.host+"/";
+  var SYS_FILE_HOST = "http://"+window.location.host+"/Uploads/syspic/";
+  var PREFIX_FILE_HOST = "http://"+window.location.host+"/userfiles/";
+  var PREFIXSYS_FILE_HOST = "http://"+window.location.host+"/Uploads/";
+  var USER_FILE_HOST = PREFIX_FILE_HOST;
+  var CLIENT_CDN = "http://"+window.location.host+"/Public/css/";
+  var INTERVAL_OBJ = {}; // 用于图集使用的定时器对象
+  function gt_custom_ajax(result, selector) {selectorA = selector;if (result) {challenge = selector(".geetest_challenge").value;validate = selector(".geetest_validate").value;seccode = selector(".geetest_seccode").value;submit = true;}
+  }
+function getCookie(c_name){
+　　　　if (document.cookie.length>0){
+　　　　　　c_start=document.cookie.indexOf(c_name + "=");　　
+　　　　　　if (c_start!=-1){ 
+　　　　　　　　c_start=c_start + c_name.length+1;
+　　　　　　　　c_end=document.cookie.indexOf(";",c_start)　;
+　　　　　　　　if (c_end==-1) c_end=document.cookie.length　;　
+　　　　　　　　return unescape(document.cookie.substring(c_start,c_end));
+　　　　　　} 
+　　　　}
+　　　　return ""
+　　}　　
+</script>
+<!--
+IE8 support, see AngularJS Internet Explorer Compatibility http://docs.angularjs.org/guide/ie
+For Firefox 3.6, you will also need to include jQuery and ECMAScript 5 shim
+-->
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.2.0/es5-shim.js"></script>
+<script>document.createElement('ui-select');document.createElement('ui-select-match');document.createElement('ui-select-choices');</script>
+<![endif]-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/scenecommon.css">
+<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="css/uicss.css">
+<link rel="stylesheet" type="text/css" href="css/scene.css">
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/angular.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.2.23/angular-route.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.2.23/angular-mocks.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.2.23/angular-animate.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.2.23/angular-sanitize.js"></script>
+<script type="text/javascript" src="http://libs.baidu.com/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/scenecommon1.js"></script>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.2.23/i18n/angular-locale_zh-cn.js"></script>
+<script type="text/javascript" src="js/scenecommon2.js"></script>
+<script type="text/javascript" src="js/scene.js"></script>
+<style>.myGrid {width: 998px;height: 550px;}.myGrid1 {width: 650px;height: 550px;}.choose_template .main .content .mask ul li .roll :hover .cc{display: block;}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body>
+<div class='notifications top-right'></div>
+<div id="eq_main" ng-view></div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+#support {
+	color: #fff; position: fixed; bottom: 5px; right: 5px;
+}
+#support a img {
+	border: 0;
+}
+.phone_panel{left:35%;margin-left:-130px;position:absolute; height: 641px !important; top: 50%; margin-top: -320px;}
+.phoneBox{ width: 322px; height: 641px !important;float:Left; }
+.phoneBox .top{ height: 48px; width: 100%; background-size: 100% 100%; background-image: url('images/yulan_phone_top.png'); background-repeat: no-repeat;}
+.phoneBox .bottom{ height: 45px; width: 100%; background-size: 100% 100%; background-image: url('images/yulan_phone_bottom.png'); background-repeat: no-repeat; text-align: center;}
+.phoneBox .bottom a{ width: 120px; height: 40px; background: url('images/btn1_bg.png') no-repeat; display: inline-block; margin-top: 2px; color: #ccc; font-size: 14px; line-height: 40px; font-weight: bold;}
+.phoneBox .nr{ background-color: #000; position: relative; cursor: pointer;height: 486px;/*border-right:1px solid #f6f6f6;border-left:1px solid #F6F6F6;*/ overflow-x: hidden; overflow-y: hidden; -webkit-user-select: none;}
+.ui-page {
+	position: relative !important;
+	min-height: 0 !important;
+}
+.anchorBL{display:none !important}
+article {
+	height: 100% !important;
+}
+
+#code {
+	position: fixed;
+	right: 30%;
+	top: 50%;
+	margin-right: -120px;
+	margin-top: -243px;
+}
+#code #view_reg{font-size:15px;border:1px solid #fff;border-radius:5px;height:42px;line-height:42px;text-align:center;}
+#view_reg span{padding-left:5px;}
+#view_reg span a{border-bottom:1px solid #08a1ef;}
+
+body {
+	background-color: transparent;
+	overflow: hidden;
+	background-image: url('images/previewbg_spring.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+body * {
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#code div {
+	color: #fff;
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+#code #codeImg {
+	display: block;
+}
+
+.phone_menubar {
+	background: url('images/phonetitle1.gif');
+	height: 20px;
+}
+
+.scene_title_baner {
+	display: block !important;
+	height: 40px;
+	line-height: 40px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	border-left:1px solid #F6F6F6;
+	border-right:1px solid #F6F6F6;
+}
+.scene_title_baner .scene_title {
+	min-width: 20px;
+	font-size: 24px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+a{text-decoration: none;}
+a:link {color: #08a1ef;text-decoration: none;}
+a:visited {color: #08a1ef;text-decoration: none;}
+a:hover{color: #08a1ef;text-decoration: none;}
+a:active {color: #08a1ef;text-decoration: none}
