@@ -18,7 +18,7 @@ $public_system_db_pwd = 'haoid.cn';  //你的数据库密码
 推荐使用Notepad++来修改PHP文件
 * 4、安装完成
 然后把php.ini里面的  max_execution_time  改成500  不然可能采集失败
-* * *
-前台地址：http://域名
-后台地址：http://域名/adminc.php
-默认后台账号密码都是admin@qq.com  admin
+
+    前台地址：http://域名
+    后台地址：http://域名/adminc.php
+    默认后台账号密码都是admin@qq.com  admin
