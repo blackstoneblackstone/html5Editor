@@ -2,7 +2,7 @@
 > 仿易企秀，h5制作后台
 > 易企秀源码运行环境：PHP 5.3 + MySQL + 伪静态支持，我们在PHP 5.2和PHP 5.4下测试过，好像无法运行，所以请配置好PHP 5.3测试。
 
-## 源码安装说明：
+## 源码安装说明
 
 - 把文件包上传到网站根目录
 - 创建一个数据库
@@ -10,6 +10,7 @@
 - 修改数据库
   > 打开：ApplicationCommonConfsystemConfig.php
   > 配置服务器
+  
 ```php
 $public_system_db_host = '127.0.0.1';（这个不要修改）
 $public_system_db_name = 'yiqixiu';  //你的数据库名称
